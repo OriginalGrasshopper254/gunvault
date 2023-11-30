@@ -9,7 +9,6 @@ def check_database_exists():
 
     if os.path.isfile(path) == True:
         print('Connected to database!')
-        return True
     else:
         try:
             con = sqlite3.connect('gunvault.db')
