@@ -1,6 +1,5 @@
 import sqlite3
 import os.path
-import time
 
 path = '/Users/kenyantrapper/Coding/firearms/gunvault.db'
 hashtags = '############################################'
